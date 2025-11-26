@@ -1,0 +1,49 @@
+# ------------------------------
+# Virtual Environments
+# ------------------------------
+venv_ibridge/
+venv/
+env/
+.venv/
+
+# ------------------------------
+# Python Bytecode / Cache
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ------------------------------
+# Logs
+# (Ignore individual .log files, but keep logs folder & etl_log.txt)
+# ------------------------------
+*.log
+
+# ------------------------------
+# VS Code Settings
+# ------------------------------
+.vscode/
+
+# ------------------------------
+# Streamlit Cache / Generated Files
+# ------------------------------
+.streamlit/
+
+# ------------------------------
+# OS / System Files
+# ------------------------------
+Thumbs.db
+.DS_Store
+
+# ------------------------------
+# MySQL Connector Temp Files
+# ------------------------------
+*.cnf
+*.pid
+*.sock
+
+# ------------------------------
+# Jupyter / Notebook Auto-saves (if any)
+# ------------------------------
+.ipynb_checkpoints/
